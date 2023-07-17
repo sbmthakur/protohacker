@@ -62,7 +62,6 @@ function sendTicket(plate, road, m1, m2, t1, t2, speed) {
   if (n) {
     console.log(`sending day ${day} for ${plate}  timestampts: ${t1} ${t2}, dayMin: ${dayMin}, dayMax: ${dayMax}`)
     dispatchTicket()
-    days[day].add(plate)
   }
 
   function dispatchTicket() {
